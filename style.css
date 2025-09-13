@@ -3,42 +3,70 @@ body {
   background: #f4f7fb;
   margin: 0;
   padding: 20px;
-  color: #0037ff;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
   background: url("bg.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
+p{
+    color: #E0E6ED;
 }
 
-.addmath {
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.trial, .tab {
   max-width: 800px;
   margin: auto;
 }
 
-.addmath a {
+.tab a{
+  padding: 10px 10px;
   display: block;
-  padding: 12px 15px;
-  margin: 8px 0;
-  background: #ffffff;
+  margin: 12px 150px;
+  text-align: center;
+  background: #FF4D6D;
   border-radius: 8px;
   text-decoration: none;
-  color: #0073e6;
+  color: #FFFFFF;
   font-weight: bold;
   transition: 0.3s;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.addmath a:hover {
-  background: #0073e6;
+.trial a {
+  display: block;
+  padding: 12px 15px;
+  margin: 8px;
+  text-align: center;
+  background: #FF4D6D;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.trial a:hover, .tab a:hover {
+  background: #4DA6FF;
   color: #fff;
+}
+
+.paper {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 15px;
+  margin: 0px 100px 0px;
 }
 
 footer {
   text-align: center;
   margin-top: 40px;
   font-size: 14px;
-  color: #0037ff;
+  color: #9BA8B5;
 }
